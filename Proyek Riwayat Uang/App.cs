@@ -64,6 +64,11 @@ namespace Proyek_Riwayat_Uang
                 this.btn_AddRiwayat.Enabled = false;
                 this.btn_Clear.Enabled = false;
             }
+            else
+            {
+                this.btn_AddRiwayat.Enabled = true;
+                this.btn_Clear.Enabled = true;
+            }
         }
 
         private void App_Load(object sender, EventArgs e)
