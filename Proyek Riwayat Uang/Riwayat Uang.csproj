@@ -59,9 +59,21 @@
     <Compile Include="App.Designer.cs">
       <DependentUpon>App.cs</DependentUpon>
     </Compile>
-    <Compile Include="AppDatabase.cs" />
+    <Compile Include="Class\AppDatabase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetUang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetUang.Designer.cs">
+      <DependentUpon>SetUang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TambahRiwayat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TambahRiwayat.Designer.cs">
+      <DependentUpon>TambahRiwayat.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="App.resx">
       <DependentUpon>App.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +87,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SetUang.resx">
+      <DependentUpon>SetUang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TambahRiwayat.resx">
+      <DependentUpon>TambahRiwayat.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

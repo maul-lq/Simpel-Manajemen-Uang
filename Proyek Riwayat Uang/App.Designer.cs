@@ -32,8 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_setSaldo = new System.Windows.Forms.Button();
-            this.box_Saldo = new System.Windows.Forms.TextBox();
+            this.btn_setUang = new System.Windows.Forms.Button();
+            this.box_Uang = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dataGridView_riwayat = new System.Windows.Forms.DataGridView();
@@ -78,49 +78,53 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(88)))), ((int)(((byte)(25)))));
-            this.panel2.Controls.Add(this.btn_setSaldo);
-            this.panel2.Controls.Add(this.box_Saldo);
+            this.panel2.Controls.Add(this.btn_setUang);
+            this.panel2.Controls.Add(this.box_Uang);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(14, 54);
+            this.panel2.Location = new System.Drawing.Point(14, 277);
             this.panel2.Margin = new System.Windows.Forms.Padding(5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(205, 165);
             this.panel2.TabIndex = 1;
             // 
-            // btn_setSaldo
+            // btn_setUang
             // 
-            this.btn_setSaldo.BackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_setSaldo.FlatAppearance.BorderSize = 0;
-            this.btn_setSaldo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_setSaldo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(242)))));
-            this.btn_setSaldo.Location = new System.Drawing.Point(66, 116);
-            this.btn_setSaldo.Name = "btn_setSaldo";
-            this.btn_setSaldo.Size = new System.Drawing.Size(72, 30);
-            this.btn_setSaldo.TabIndex = 2;
-            this.btn_setSaldo.Text = "Set Saldo";
-            this.btn_setSaldo.UseVisualStyleBackColor = false;
+            this.btn_setUang.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_setUang.FlatAppearance.BorderSize = 0;
+            this.btn_setUang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_setUang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(242)))));
+            this.btn_setUang.Location = new System.Drawing.Point(66, 116);
+            this.btn_setUang.Name = "btn_setUang";
+            this.btn_setUang.Size = new System.Drawing.Size(72, 30);
+            this.btn_setUang.TabIndex = 2;
+            this.btn_setUang.TabStop = false;
+            this.btn_setUang.Text = "Set Uang";
+            this.btn_setUang.UseVisualStyleBackColor = false;
+            this.btn_setUang.Click += new System.EventHandler(this.btn_setUang_Click);
             // 
-            // box_Saldo
+            // box_Uang
             // 
-            this.box_Saldo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(88)))), ((int)(((byte)(25)))));
-            this.box_Saldo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.box_Saldo.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.box_Saldo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.box_Saldo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(231)))), ((int)(((byte)(52)))));
-            this.box_Saldo.Location = new System.Drawing.Point(10, 66);
-            this.box_Saldo.Margin = new System.Windows.Forms.Padding(10);
-            this.box_Saldo.Name = "box_Saldo";
-            this.box_Saldo.Size = new System.Drawing.Size(185, 20);
-            this.box_Saldo.TabIndex = 1;
-            this.box_Saldo.Text = "10000";
-            this.box_Saldo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.box_Uang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(88)))), ((int)(((byte)(25)))));
+            this.box_Uang.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.box_Uang.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.box_Uang.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_Uang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(231)))), ((int)(((byte)(52)))));
+            this.box_Uang.Location = new System.Drawing.Point(10, 66);
+            this.box_Uang.Margin = new System.Windows.Forms.Padding(10);
+            this.box_Uang.Name = "box_Uang";
+            this.box_Uang.ShortcutsEnabled = false;
+            this.box_Uang.Size = new System.Drawing.Size(185, 20);
+            this.box_Uang.TabIndex = 1;
+            this.box_Uang.TabStop = false;
+            this.box_Uang.Text = "10000";
+            this.box_Uang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(231)))), ((int)(((byte)(52)))));
-            this.label2.Location = new System.Drawing.Point(62, 13);
+            this.label2.Location = new System.Drawing.Point(59, 13);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 21);
             this.label2.TabIndex = 0;
@@ -163,7 +167,7 @@
             this.panel4.Controls.Add(this.box_Pendapatan);
             this.panel4.Controls.Add(this.label3);
             this.panel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(242)))));
-            this.panel4.Location = new System.Drawing.Point(14, 229);
+            this.panel4.Location = new System.Drawing.Point(14, 59);
             this.panel4.Margin = new System.Windows.Forms.Padding(5);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(205, 208);
@@ -173,7 +177,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(233)))), ((int)(((byte)(30)))));
-            this.label5.Location = new System.Drawing.Point(52, 49);
+            this.label5.Location = new System.Drawing.Point(53, 49);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 13);
             this.label5.TabIndex = 6;
@@ -183,11 +187,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(33)))), ((int)(((byte)(30)))));
-            this.label4.Location = new System.Drawing.Point(63, 105);
+            this.label4.Location = new System.Drawing.Point(51, 105);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 13);
+            this.label4.Size = new System.Drawing.Size(100, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Pengeluaran";
+            this.label4.Text = "Total Pengeluaran";
             // 
             // box_Pengeluaran
             // 
@@ -196,13 +200,14 @@
             this.box_Pengeluaran.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.box_Pengeluaran.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.box_Pengeluaran.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(242)))));
-            this.box_Pengeluaran.Location = new System.Drawing.Point(10, 128);
+            this.box_Pengeluaran.Location = new System.Drawing.Point(9, 128);
             this.box_Pengeluaran.Margin = new System.Windows.Forms.Padding(10);
             this.box_Pengeluaran.Name = "box_Pengeluaran";
             this.box_Pengeluaran.ReadOnly = true;
             this.box_Pengeluaran.ShortcutsEnabled = false;
             this.box_Pengeluaran.Size = new System.Drawing.Size(185, 20);
             this.box_Pengeluaran.TabIndex = 4;
+            this.box_Pengeluaran.TabStop = false;
             this.box_Pengeluaran.Text = "10000";
             this.box_Pengeluaran.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -218,8 +223,10 @@
             this.btn_Clear.Name = "btn_Clear";
             this.btn_Clear.Size = new System.Drawing.Size(86, 30);
             this.btn_Clear.TabIndex = 3;
+            this.btn_Clear.TabStop = false;
             this.btn_Clear.Text = "Hapus Semua";
             this.btn_Clear.UseVisualStyleBackColor = false;
+            this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
             // btn_AddRiwayat
             // 
@@ -233,8 +240,10 @@
             this.btn_AddRiwayat.Name = "btn_AddRiwayat";
             this.btn_AddRiwayat.Size = new System.Drawing.Size(100, 30);
             this.btn_AddRiwayat.TabIndex = 2;
+            this.btn_AddRiwayat.TabStop = false;
             this.btn_AddRiwayat.Text = "Tambah Riwayat";
             this.btn_AddRiwayat.UseVisualStyleBackColor = false;
+            this.btn_AddRiwayat.Click += new System.EventHandler(this.btn_AddRiwayat_Click);
             // 
             // box_Pendapatan
             // 
@@ -243,26 +252,28 @@
             this.box_Pendapatan.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.box_Pendapatan.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.box_Pendapatan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(242)))));
-            this.box_Pendapatan.Location = new System.Drawing.Point(10, 72);
+            this.box_Pendapatan.Location = new System.Drawing.Point(9, 72);
             this.box_Pendapatan.Margin = new System.Windows.Forms.Padding(10);
             this.box_Pendapatan.Name = "box_Pendapatan";
             this.box_Pendapatan.ReadOnly = true;
             this.box_Pendapatan.ShortcutsEnabled = false;
             this.box_Pendapatan.Size = new System.Drawing.Size(185, 20);
             this.box_Pendapatan.TabIndex = 1;
+            this.box_Pendapatan.TabStop = false;
             this.box_Pendapatan.Text = "10000";
             this.box_Pendapatan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(242)))));
-            this.label3.Location = new System.Drawing.Point(62, 13);
+            this.label3.Location = new System.Drawing.Point(51, 12);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 21);
+            this.label3.Size = new System.Drawing.Size(101, 21);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Uang Anda";
+            this.label3.Text = "Total Riwayat";
             // 
             // App
             // 
@@ -271,8 +282,8 @@
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -299,9 +310,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox box_Saldo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_setSaldo;
+        private System.Windows.Forms.Button btn_setUang;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridView_riwayat;
         private System.Windows.Forms.Panel panel4;
@@ -312,5 +322,6 @@
         private System.Windows.Forms.Button btn_AddRiwayat;
         private System.Windows.Forms.TextBox box_Pendapatan;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox box_Uang;
     }
 }
