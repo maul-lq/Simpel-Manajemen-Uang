@@ -103,5 +103,10 @@ namespace Proyek_Riwayat_Uang
                 refresh();
             }
         }
+
+        private void btn_setting_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
