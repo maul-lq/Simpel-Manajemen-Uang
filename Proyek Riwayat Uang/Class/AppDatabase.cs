@@ -22,7 +22,7 @@ namespace Proyek_Riwayat_Uang
         public AppDatabase()
         {
             strKoneksiRiwayat = new StringBuilder();
-            strKoneksiRiwayat.Append("server=127.0.0.1;uid=root;pwd=;database=db_riwayat_uang");
+            strKoneksiRiwayat.Append("server=127.0.0.1;uid=root;pwd=;database=db_manajemen_uang");
 
             _koneksi = new MySqlConnection(strKoneksiRiwayat.ToString());
             this.BukaKoneksi();
