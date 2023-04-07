@@ -32,7 +32,6 @@ namespace Proyek_Riwayat_Uang
         {
             try
             {
-
                 string uang = box_uang.Text;
                 string date = tanggal.Value.ToShortDateString();
                 string catatan = note.Text.ToString();
