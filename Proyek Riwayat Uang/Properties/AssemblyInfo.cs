@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Manajemen Uang")]
 [assembly: AssemblyDescription("Ayo atur uang anda!")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("rizlradFz#rizlradfz@gmail.com")]
+[assembly: AssemblyCompany("rizlradFz")]
 [assembly: AssemblyProduct("Manajemen Uang@rFz")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("rizlradFz™")]
