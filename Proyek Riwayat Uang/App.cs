@@ -28,9 +28,6 @@ namespace Proyek_Riwayat_Uang
             #region Tabel Riwayat
             dataGridView_riwayat.DataSource = db.read_riwayat();
 
-            // mengatur lebar kolom untuk kolom 'id'
-            dataGridView_riwayat.Columns["id"].Width = 50;
-
             // mengatur lebar kolom untuk kolom 'uang'
             dataGridView_riwayat.Columns["uang"].Width = Convert.ToInt32(100 * 1.2);
 

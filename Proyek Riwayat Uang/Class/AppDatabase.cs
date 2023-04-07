@@ -71,7 +71,7 @@ namespace Proyek_Riwayat_Uang
         {
             DataTable data = new DataTable();
 
-            query = new StringBuilder("SELECT * FROM `riwayat`;");
+            query = new StringBuilder("SELECT `uang`, `tanggal`, `catatan` FROM `riwayat`;");
             _data = new MySqlDataAdapter(query.ToString(), _koneksi);
 
             _data.Fill(data);
