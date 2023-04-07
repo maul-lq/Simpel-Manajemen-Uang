@@ -2,7 +2,7 @@
 
 ## Installasi
 
- 1. Download versi aplikasi yang terbaru ([Download disini](https://github.com/maul-lq/Simpel-Manajemen-Uang/releases)).
+ 1. Download versi aplikasi yang terbaru ([Download disini](https://github.com/maul-lq/Simpel-Manajemen-Uang/releases)) lalu eksrak.
  2. Jalankan XAMPP (jika belum ada install xampp dulu).
  3. Aktifkan apache dan mysql.
  4. Buka browser ketik `http://localhost/phpmyadmin/`.
