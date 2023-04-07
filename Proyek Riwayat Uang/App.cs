@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-
 namespace Proyek_Riwayat_Uang
 {
     public partial class App : Form
