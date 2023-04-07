@@ -73,16 +73,6 @@ namespace Proyek_Riwayat_Uang.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Ikon_Setting_00000 {
-            get {
-                object obj = ResourceManager.GetObject("Ikon_Setting_00000", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         public static System.Drawing.Bitmap Ikon_Setting_00001 {
             get {
                 object obj = ResourceManager.GetObject("Ikon_Setting_00001", resourceCulture);
