@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Proyek_Riwayat_Uang
 {
     public partial class App : Form
     {
+        AppDatabase db;
+
         public App()
         {
             InitializeComponent();
