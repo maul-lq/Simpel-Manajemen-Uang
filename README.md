@@ -1,4 +1,4 @@
-# Proyek Riwayat Uang
+# Proyek Riwayat Uang [![CodeFactor](https://www.codefactor.io/repository/github/maul-lq/simpel-manajemen-uang/badge/master)](https://www.codefactor.io/repository/github/maul-lq/simpel-manajemen-uang/overview/master)
 
 ## Installasi
 
