@@ -39,9 +39,8 @@ namespace Proyek_Riwayat_Uang
             }
             else if (hasil == DialogResult.No)
             {
-
+                ;
             }
-
         }
     }
 }
