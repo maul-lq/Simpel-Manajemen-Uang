@@ -7,7 +7,7 @@
     <ProjectGuid>{A88ACD7B-DCDF-4B16-9383-D62F47338582}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Proyek_Riwayat_Uang</RootNamespace>
-    <AssemblyName>Proyek Riwayat Uang</AssemblyName>
+    <AssemblyName>Manajemen Uang</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Resources\App Icon.ico</ApplicationIcon>

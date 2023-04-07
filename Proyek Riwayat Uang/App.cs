@@ -30,7 +30,7 @@ namespace Proyek_Riwayat_Uang
         {
             DateTime date = new DateTime(DateTime.Now.Ticks);
 
-            this.Text = "Riwayat Uang by maul-lq | " + date.ToShortDateString();
+            this.Text = "Riwayat Uang by rizlradFz | " + date.ToShortDateString();
             #region Tabel Riwayat
             dataGridView_riwayat.DataSource = db.read_riwayat();
 
