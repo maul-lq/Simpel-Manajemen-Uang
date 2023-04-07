@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(App));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_setting = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_setUang = new System.Windows.Forms.Button();
@@ -54,13 +55,25 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(47)))), ((int)(((byte)(0)))));
+            this.panel1.BackColor = System.Drawing.Color.DimGray;
+            this.panel1.Controls.Add(this.btn_setting);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(784, 46);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_setting
+            // 
+            this.btn_setting.FlatAppearance.BorderSize = 0;
+            this.btn_setting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_setting.Image = global::Proyek_Riwayat_Uang.Properties.Resources.Ikon_Setting_00003;
+            this.btn_setting.Location = new System.Drawing.Point(744, 3);
+            this.btn_setting.Name = "btn_setting";
+            this.btn_setting.Size = new System.Drawing.Size(40, 40);
+            this.btn_setting.TabIndex = 1;
+            this.btn_setting.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -323,5 +336,6 @@
         private System.Windows.Forms.TextBox box_Pendapatan;
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.TextBox box_Uang;
+        private System.Windows.Forms.Button btn_setting;
     }
 }

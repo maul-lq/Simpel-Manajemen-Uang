@@ -110,6 +110,13 @@
   <ItemGroup>
     <Content Include=".database\db_manajemen_uang.sql" />
     <Content Include=".database\db_manajemen_uang.xml" />
+    <None Include="Resources\Ikon_Setting_00006.png" />
+    <None Include="Resources\Ikon_Setting_00005.png" />
+    <None Include="Resources\Ikon_Setting_00004.png" />
+    <None Include="Resources\Ikon_Setting_00003.png" />
+    <None Include="Resources\Ikon_Setting_00002.png" />
+    <None Include="Resources\Ikon_Setting_00001.png" />
+    <None Include="Resources\Ikon_Setting_00000.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

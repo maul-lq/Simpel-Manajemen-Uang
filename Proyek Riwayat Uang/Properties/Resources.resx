@@ -121,4 +121,25 @@
   <data name="App_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App Icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ikon_Setting_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikon_Setting_00000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ikon_Setting_00001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikon_Setting_00001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ikon_Setting_00002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikon_Setting_00002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ikon_Setting_00003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikon_Setting_00003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ikon_Setting_00004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikon_Setting_00004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ikon_Setting_00005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikon_Setting_00005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ikon_Setting_00006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikon_Setting_00006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

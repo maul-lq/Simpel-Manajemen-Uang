@@ -69,5 +69,75 @@ namespace Proyek_Riwayat_Uang.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ikon_Setting_00000 {
+            get {
+                object obj = ResourceManager.GetObject("Ikon_Setting_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ikon_Setting_00001 {
+            get {
+                object obj = ResourceManager.GetObject("Ikon_Setting_00001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ikon_Setting_00002 {
+            get {
+                object obj = ResourceManager.GetObject("Ikon_Setting_00002", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ikon_Setting_00003 {
+            get {
+                object obj = ResourceManager.GetObject("Ikon_Setting_00003", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ikon_Setting_00004 {
+            get {
+                object obj = ResourceManager.GetObject("Ikon_Setting_00004", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ikon_Setting_00005 {
+            get {
+                object obj = ResourceManager.GetObject("Ikon_Setting_00005", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ikon_Setting_00006 {
+            get {
+                object obj = ResourceManager.GetObject("Ikon_Setting_00006", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
