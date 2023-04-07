@@ -37,10 +37,6 @@ namespace Proyek_Riwayat_Uang
                     MessageBox.Show(ex.ToString());
                 }
             }
-            else if (hasil == DialogResult.No)
-            {
-                ;
-            }
         }
     }
 }
