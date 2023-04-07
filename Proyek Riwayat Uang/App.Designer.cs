@@ -74,6 +74,7 @@
             this.btn_setting.Size = new System.Drawing.Size(40, 40);
             this.btn_setting.TabIndex = 1;
             this.btn_setting.UseVisualStyleBackColor = true;
+            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
             // 
             // label1
             // 
