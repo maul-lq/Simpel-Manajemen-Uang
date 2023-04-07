@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -30,7 +24,7 @@ namespace Proyek_Riwayat_Uang
         {
             DateTime date = new DateTime(DateTime.Now.Ticks);
 
-            this.Text = "Riwayat Uang by rizlradFz | " + date.ToShortDateString();
+            this.Text = "Simpel Manajemen Uang by rizlradFz | " + date.ToShortDateString();
             #region Tabel Riwayat
             dataGridView_riwayat.DataSource = db.read_riwayat();
 
@@ -47,8 +41,8 @@ namespace Proyek_Riwayat_Uang
             dataGridView_riwayat.Columns["catatan"].Width = Convert.ToInt32(150 * 2);
 
             List<double> totalriwayat = db.totalRiwayat();
-            box_Pendapatan.Text = totalriwayat[0].ToString();
-            box_Pengeluaran.Text = totalriwayat[1].ToString();
+            box_Pendapatan.Text = "Rp. " + totalriwayat[0].ToString();
+            box_Pengeluaran.Text = "Rp. " + totalriwayat[1].ToString();
             #endregion
 
             #region Tabel Uang
@@ -56,7 +50,7 @@ namespace Proyek_Riwayat_Uang
 
             #endregion
 
-            if (box_Pendapatan.Text == "0" && box_Pengeluaran.Text == "0" && box_Uang.Text == "Rp. 0")
+            if (box_Pendapatan.Text == "Rp. 0" && box_Pengeluaran.Text == "Rp. 0" && box_Uang.Text == "Rp. 0")
             {
                 // jika pengeluaran, pendapatan, dan uang yang dipunya semua 0
                 // tombol tambah riwayat dan hapus tidak bisa diklik sebelum atur
@@ -76,7 +70,7 @@ namespace Proyek_Riwayat_Uang
             try
             {
                 refresh();
-}
+            }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());

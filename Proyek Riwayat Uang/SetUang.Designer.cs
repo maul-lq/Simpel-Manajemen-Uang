@@ -48,9 +48,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(263, 30);
             this.panel1.TabIndex = 0;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
-            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
             // label1
             // 
@@ -89,7 +86,7 @@
             this.btn_update.Location = new System.Drawing.Point(128, 64);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(75, 23);
-            this.btn_update.TabIndex = 3;
+            this.btn_update.TabIndex = 2;
             this.btn_update.Text = "Update";
             this.btn_update.UseVisualStyleBackColor = false;
             this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
@@ -102,7 +99,7 @@
             this.btn_batal.Location = new System.Drawing.Point(23, 64);
             this.btn_batal.Name = "btn_batal";
             this.btn_batal.Size = new System.Drawing.Size(75, 23);
-            this.btn_batal.TabIndex = 2;
+            this.btn_batal.TabIndex = 3;
             this.btn_batal.Text = "Batal";
             this.btn_batal.UseVisualStyleBackColor = false;
             this.btn_batal.Click += new System.EventHandler(this.btn_batal_Click);

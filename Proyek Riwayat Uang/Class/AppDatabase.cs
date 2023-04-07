@@ -1,12 +1,7 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using MySql.Data.MySqlClient;
-using MySql.Data.Types;
 
 namespace Proyek_Riwayat_Uang
 {
@@ -118,7 +113,7 @@ namespace Proyek_Riwayat_Uang
             query.Replace("$2", date.ToString());
             query.Replace("$3", catatan);
 
-            _perintah = new MySqlCommand(query.ToString(),_koneksi);
+            _perintah = new MySqlCommand(query.ToString(), _koneksi);
             _perintah.ExecuteNonQuery();
             query.Clear();
 
