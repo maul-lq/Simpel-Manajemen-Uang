@@ -1,6 +1,6 @@
 # Proyek Riwayat Uang [![CodeFactor](https://www.codefactor.io/repository/github/maul-lq/simpel-manajemen-uang/badge/master)](https://www.codefactor.io/repository/github/maul-lq/simpel-manajemen-uang/overview/master)
 
-Projek Gabut 202
+Projek Gabut 2023
 
 ## Installasi
 
